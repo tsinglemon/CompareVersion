@@ -1,6 +1,27 @@
 {
+  "name": "compare-version-plus",
+  "version": "1.0.0",
+  "main": "dist/lib/compare-version-plus.min.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "files": [
+    "dist"
+  ],
   "dependencies": {
+    "create-react-app": "^5.0.0",
+    "global": "^4.4.0",
     "rollup": "^2.66.1",
     "rollup-plugin-terser": "^7.0.2"
-  }
+  },
+  "peerDependencies": {},
+  "authors": {
+    "name": "tsinglemon",
+    "email": "jm0009@163.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tsinglemon/compare-version-plus"
+  },
+  "license": "MIT"
 }

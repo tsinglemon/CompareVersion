@@ -3,8 +3,8 @@ import {terser} from 'rollup-plugin-terser';
 export default {
   input: 'src/main.js',
   output: {
-    name: 'compareVersion',
-    file: './dist/compareVersion.js',
+    name: 'compare-version-plus',
+    file: './dist/compare-version-plus.min.js',
     format: 'umd',
     plugins: [terser()]
   }
