@@ -39,7 +39,7 @@ CompareVersion.prototype.isBetween = function (versionStart, versionEnd) {
   return this.isAfter(versionStart) && this.isBefore(versionEnd)
 }
 //实心区间内
-CompareVersion.prototype.isSameBetween = function (versionStart, versionEnd) {
+CompareVersion.prototype.isSameOrBetween = function (versionStart, versionEnd) {
   return this.isSameOrAfter(versionStart) && this.isSameOrBefore(versionEnd)
 }
 
