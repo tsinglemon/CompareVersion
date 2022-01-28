@@ -1,7 +1,7 @@
 {
   "name": "compare-version-plus",
-  "version": "1.0.1",
-  "main": "dist/lib/compare-version-plus.min.js",
+  "version": "1.0.4",
+  "main": "dist/compare-version-plus.min.js",
   "scripts": {
     "build": "rollup -c"
   },
@@ -9,6 +9,7 @@
     "dist"
   ],
   "dependencies": {
+    "compare-version-plus": "^1.0.4",
     "create-react-app": "^5.0.0",
     "global": "^4.4.0",
     "rollup": "^2.66.1",

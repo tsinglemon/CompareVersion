@@ -44,7 +44,7 @@ export function alignVersionLength(versionList) {
       fillList = fillList.join('');
       return fillList + el;
     })
-    console.log(`item-${listIndex}`, item)
+    // console.log(`item-${listIndex}`, item)
     return item.join('');
   })
   // console.log('result', result)
