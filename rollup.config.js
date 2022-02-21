@@ -6,6 +6,6 @@ export default {
     name: 'compareVersion',
     file: './dist/compare-version-plus.min.js',
     format: 'umd',
-    // plugins: [terser()]
+    plugins: [terser()]
   }
 };
